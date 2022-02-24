@@ -24,7 +24,7 @@
 <style>
   #team {
     background: var(--bglight);
-    background-image: url(/images/bg-img.svg);
+    background-image: url(../images/bg-img.svg);
     color: var(--onlight);
     padding: 40px 0;
   }

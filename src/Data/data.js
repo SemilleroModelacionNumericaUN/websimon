@@ -8,6 +8,7 @@ const NAVBAR_DATA = [
   { url: "#projects", label: "Proyectos" },
   { url: "#developpers", label: "Desarrolladores" },
   { url: "#team", label: "Equipo" },
+  { url: "#tools", label: "Herramientas" },
   { url: "#network", label: "Red" },
   { url: "#footer", label: "Contacto" },
 ];
@@ -181,11 +182,36 @@ const TEAM_DATA = {
   ]
 };
 
+const TOOLS_DATA = {
+  heading: "Herramientas abiertas",
+  description: "En el semillero se han desarrollado algunas herramientas de código abierto para apoyar actividades recurrentes en Ingeniería, con herramientas tecnológicas.",
+  tools_list: [
+    {
+      title: "Consolidador para Excel",
+      language: "VBA - Visual Basic for Applications",
+      description: "Permite consolidar matrices por fila y columna creando la referencia a las celdas de las matrices consolidadas.",
+      usage: "Solución de estructuras por el método de la rigidez - Ensamble de la matriz del sistema a partir de las matrices de cada elemento.",
+      youtube_url: "https://www.youtube.com",
+      img: "images/tool-consolidador.png",
+      github_url: "https://github.com",
+    },
+    {
+      title: "Graficadora de funciones en el espacio",
+      language: "Web - Javascript",
+      description: "Permite graficar funciones escalares en el espacio utilizando una escala de colores.",
+      usage: "Inicialmente se desarrolló como parte de un proyecto para el curso de mecánica estructural avanzanda para visualizar algunas soluciones a problemas fundamentales de la Mecánica del continuo. Sin embargo, se puede generalizar para graficar cualquier función que asigna un valor escalar a cada punto en el espacio.",
+      youtube_url: "https://www.youtube.com",
+      img: "images/tool-graficador.png",
+      github_url: "https://github.com",
+    },
+  ],
+};
+
 const FOOTER_DATA = {
   logo: "images/simon-logo.svg",
   description: "Estamos felices por recibir integrantes nuevos permanentemente. Por favor contáctenos por cualquier medio para participar en alguno de los proyectos que tenemos en curso.",
   contact_details: {
-    email: "sinmonfi_bog@unal.edu.co",
+    email: "simonfi_bog@unal.edu.co",
     discord: "https://discord.gg/e2VsNuR7gU",
     github: "https://github.com/SemilleroModelacionNumericaUN",
     youtube: "https://www.youtube.com/channel/UCTjqO__jhZ4QKdiYI8Qtytg"
@@ -201,7 +227,8 @@ const ALL_DATA = {
   DEVELOPPERS_DATA,
   NETWORK_DATA,
   TEAM_DATA,
-  FOOTER_DATA
+  FOOTER_DATA,
+  TOOLS_DATA
 };
 
 export default ALL_DATA;
