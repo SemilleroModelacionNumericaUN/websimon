@@ -4,7 +4,7 @@ En este repositorio se encuentra el código fuente (y compilado) de la página w
 
 ## Visitar el sitio web
 
-Para ir directamente a la página, dirigirse al siguiente [enlace](https://semilleromodelacionnumericaun.github.io/websimon/).
+Para ir directamente a la página, dirigirse al siguiente [enlace](https://simon-un.github.io/websimon/).
 
 ## Colaborar en el desarrollo del sitio web
 
