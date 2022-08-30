@@ -36,27 +36,43 @@ const PROJECTS_DATA = {
   heading: "Proyectos",
   projects_list: [
     {
+      label: "PEFiCA 2.0",
+      excerpt: "Programa de elementos finitos a código abierto.",
+      description: "El programa PEFiCA 2.0 permite resolver problemas mecánicos de sólidos mediante el método de los elementos finitos, considerando material elástico lineal isotrópico, deformación infinitesimal y cargas estáticas. El programa ha sido desarrollado en el lenguaje de programación interpretado GNU-Octave, cuidando su compatibilidad con el Matlab y con los sistemas operativos Windows, MacOS y Linux. Asimismo, puede leer los datos y representar gráficamente los resultados de los programas GMSH o GiD. El programa PEFiCA 2.0 permite obtener el campo del desplazamiento, de la deformación y del esfuerzo en sólidos sometidos a cargas estáticas y considerando deformaciones infinitesimales y material elástico lineal isotrópico. Se pueden aplicar cargas sobre puntos, presiones sobre superficies y peso específico del material. También, se pueden imponer desplazamientos sobre puntos. En problemas reducidos al dominio unidimensional el programa cuenta con elementos lineales y cuadráticos de continuidad C0 para barras sometidas a fuerza axial y con elementos cúbicos de continuidad C1 para vigas sometidas a flexión. En condición plana de esfuerzos o de deformaciones, el programa cuenta con elementos finitos triangulares lineales y cuadrilaterales bilineales, que podrían tener diferentes parámetros mecánicos de material y diferente espesor. En problemas tridimensionales, PEFiCA 2.0 cuenta con elementos finitos tetraédricos lineales, que pueden representar materiales diferentes dentro de la malla. La capacidad del programa está limitada por el tamaño máximo admisible de una matriz cuadrada en el lenguaje interpretado GNU-Octave.",
+      image: "images/pefica-logo.svg",
+      download_url: "https://github.com/simon-un/pefica/archive/refs/tags/v2.0.zip",
+      github_url: "https://github.com/simon-un/pefica"
+    },
+    {
+      label: "PAERCA 1.0",
+      excerpt: "Programa de estructuras reticulares a código abierto",
+      description: "El programa PAERCA 1.0 permite analizar estructuras reticulares planas y espaciales bajo cargas estática, con comportamiento lineal elástico y considerando deformaciones infinitesimales. El programa lee la geometría, las condiciones de apoyo, las cargas aplicadas y las propiedades mecánicas y geométricas de la sección transversal de cada elemento de un archivo .msh generado con el programa Gmsh. Asimismo, presenta los resultados como desplazamiento, cofiguración deformada y acciones internas en cada barra en el entorno gráfico de postproceso de Gmsh.",
+      image: "images/paerca-logo.svg",
+      download_url: "https://github.com/simon-un/paerca/archive/refs/tags/v1.0.zip",
+      github_url: "https://github.com/simon-un/paerca"
+    },
+    {
       label: "GeoDB",
+      excerpt: "Base de datos en geotecnia. Información de perforaciones de todos y para todos.",
       description: "Base de datos en geotecnia. Información de perforaciones de todos y para todos.",
       image: "images/geodb-logo.svg",
-      github_url: "https://github.com/SemilleroModelacionNumericaUN/geoDB"
+      download_url: "",
+      github_url: "https://github.com/simon-un/geoDB"
     },
     {
       label: "BIM",
+      excerpt: "Conectividad y transferencia de información en proyectos de construcción.",
       description: "Conectividad y transferencia de información en proyectos de construcción.",
       image: "images/bim-logo.svg",
-      github_url: "https://github.com/SemilleroModelacionNumericaUN/ifc-processing"
-    },
-    {
-      label: "PEFiCA",
-      description: "Programa de elementos finitos a código abierto, centrado en mecánica de sólidos.",
-      image: "images/pefica-logo.svg",
-      github_url: "https://github.com/SemilleroModelacionNumericaUN/pefica"
+      download_url: "",
+      github_url: "https://github.com/simon-un/ifc-processing"
     },
     {
       label: "pymas",
+      excerpt: "Programa de análisis matricial para estructuras reticulares tridimensionales.",
       description: "Programa de análisis matricial para estructuras reticulares tridimensionales.",
       image: "images/pyfem-logo.svg",
+      download_url: "https://github.com/rvcristiand/pymas/releases",
       github_url: "https://github.com/rvcristiand/pymas"
     }
   ]

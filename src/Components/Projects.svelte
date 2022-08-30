@@ -16,12 +16,18 @@
               class="card-img" 
             />
             <div class="card-body">
-              <h4 class="card-title">{project.label}</h4>
+              <h2 class="card-title">{project.label}</h2>
+              <h4 class="card-excerpt">{project.excerpt}</h4>
               <p class="card-text">{project.description}</p>
             </div>
           </div>
           <div class="card-links">
-            <a href={project.github_url} class="fab fa-github"> </a>
+            {#if project.download_url !== ""}
+              <a href={project.download_url} class="fa fa-download"> </a>
+            {/if}
+            {#if project.github_url !== ""}
+              <a href={project.github_url} class="fa fa-github"> </a>
+            {/if}
           </div>
         </div>
       {/each}
@@ -45,6 +51,7 @@
 
   .all-projects {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 20px;
@@ -67,17 +74,25 @@
   .card-content {
     padding-bottom: 10px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    column-gap: 16px;
+    align-items: start;
   }
 
   .card-img {
-    width: 90%;
+    width: 200px;
+  }
+
+  .card-body {
   }
 
   .card-title {
     font-size: 24px;
     margin-top: 10px;
+  }
+
+  .card-excerpt {
+    font-size: 20px;
+    margin-top: 5px;
   }
 
   .card-links {
@@ -90,6 +105,7 @@
     font-size: 24px;
     text-decoration: none;
     color: var(--onlight);
+    margin: 0.5rem;
   }
 
   a:hover {

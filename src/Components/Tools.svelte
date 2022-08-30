@@ -27,10 +27,10 @@
           </div>
           <div class="card-links">
             {#if tool.youtube_url !== ""}
-              <a href={tool.youtube_url} target="_blank" class="fab fa-youtube" />
+              <a href={tool.youtube_url} target="_blank" class="fa fa-youtube" />
             {/if}
             {#if tool.github_url !== ""}
-              <a href={tool.github_url} target="_blank" class="fab fa-github" />
+              <a href={tool.github_url} target="_blank" class="fa fa-github" />
             {/if}
             {#if tool.live_url !== ""}
               <a href={tool.live_url} target="_blank" class="fa fa-external-link" />
