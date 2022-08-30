@@ -45,3 +45,10 @@ Y puede lanzar nuevamente un servidor local para ver la versión compilada con:
 npm run start
 ```
 
+### Compilar para publicar la página (deploy)
+
+Cuando la página está lista para sacar al público se debe correr el siguiente comando:
+
+```bash
+npm run deploy
+```

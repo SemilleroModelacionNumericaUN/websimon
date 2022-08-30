@@ -54,10 +54,10 @@ const PROJECTS_DATA = {
       github_url: "https://github.com/SemilleroModelacionNumericaUN/pefica"
     },
     {
-      label: "pyFEM",
+      label: "pymas",
       description: "Programa de análisis matricial para estructuras reticulares tridimensionales.",
       image: "images/pyfem-logo.svg",
-      github_url: "https://github.com/rvcristiand/pyFEM"
+      github_url: "https://github.com/rvcristiand/pymas"
     }
   ]
 };
